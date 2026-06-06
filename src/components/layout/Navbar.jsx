@@ -32,10 +32,10 @@ const Navbar = () => {
             <Code className="w-6 h-6 text-primary" />
             <button
               onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-              className="text-2xl  font-bold bg-linear-to-r from-cyan-400 via-blue-500 to-violet-500 text-transparent bg-clip-text hover:opacity-80 transition-opacity"
+              className="text-2xl  font-bold bg-linear-to-r from-primary/40 via-primary/50 to-primary/70 text-transparent bg-clip-text hover:opacity-80 transition-opacity"
               aria-label="Home"
             >
-              {PERSONAL_INFO.name}
+              {PERSONAL_INFO.name.split(" ")[1]}
             </button>
           </div>
           {/*Desktop Navigation */}

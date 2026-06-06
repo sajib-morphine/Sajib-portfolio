@@ -9,7 +9,6 @@ import {
 import { PERSONAL_INFO, STATS } from "../../utils/constant";
 import { scrollToSection } from "../../hooks/useScrollSpy";
 import FadeIn from "../animations/FadeIn";
-import RadialGradientBackground from "../background/RadialGradientBackground";
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-black m">
@@ -73,12 +72,12 @@ const Hero = () => {
           <FadeIn delay={200}>
             <div className="relative flex justify-center lg:justify-end">
               {/* Animated Border */}
-              <div className="relative group w-full max-w-110">
+              <div className="relative group w-full max-w-110 ">
                 {/* Glow */}
-                <div className="absolute -inset-2 bg-primary/30 blur-2xl opacity-0 group-hover:opacity-100 transition-all duration-500 rounded-3xl"></div>
+                <div className="absolute -inset-2 bg-primary/30 blur-2xl opacity-0 group-hover:opacity-100 transition-all duration-500 rounded-3xl "></div>
 
                 {/* Gradient Border */}
-                <div className="absolute inset-0 rounded-3xl bg-linear-to-br from-primary via-primary/40 to-transparent p-0.5">
+                <div className="absolute inset-0 rounded-3xl bg-linear-to-br from-primary via-primary/40 to-transparent p-0.5 ">
                   <div className="h-full w-full rounded-2xl bg-[#0a0a0a]"></div>
                 </div>
 
