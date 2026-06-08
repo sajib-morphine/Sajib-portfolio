@@ -1,32 +1,32 @@
 export const PERSONAL_INFO = {
   name: "MD SAJIB MIA",
-  title: "React Developer and UI, UX Designer",
-  email: "john.doe@example.com",
-  location: "New York, USA",
+  title: "MERN Developer and UI, UX Designer",
+  email: "sajib.mahmudjoy25@gmail.com",
+  location: "Dhaka, Bangaladesh",
   tagline:
     "Passionate about creating intuitive and visually appealing user interfaces.",
-  resume: "/resume.pdf",
+  resume: "src/assets/Documents/resume.pdf",
   bio: [
-    "I am a passionate React developer with a strong focus on creating intuitive and visually appealing user interfaces.",
+    "I am a passionate Web developer with a strong focus on creating intuitive and visually appealing user interfaces.",
     "I have experience in both frontend and backend development, allowing me to build complete web applications.",
   ],
 };
 
 export const SOCIAL_LINKS = {
-  github: "https://github.com/johndoe",
-  linkedin: "https://linkedin.com/in/johndoe",
+  github: "https://github.com/sajib-morphine",
+  linkedin: "https://www.linkedin.com/in/md-sajib-mia-378150379/",
   twitter: "https://twitter.com/johndoe",
   dribble: "https://dribbble.com/johndoe",
 };
 export const STATS = [
-  { label: "Projects Completed", value: "25+" },
-  { label: "Years of Experience", value: "5+" },
+  { label: "Projects Completed", value: "15+" },
+  { label: "Years of Experience", value: "2+" },
   { label: "Clients satisfaction", value: "90%" },
   { label: "Technologies Mastered", value: "15+" },
 ];
 export const ABOUT_STATS = [
   { label: "Happy Clients", value: "20+" },
-  { label: "github commits", value: "500+" },
+  { label: "github commits", value: "100+" },
   { label: "github stars ", value: "3" },
 ];
 export const NAV_LINKS = [

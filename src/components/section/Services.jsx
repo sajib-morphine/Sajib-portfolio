@@ -6,7 +6,7 @@ import Card from "../ui/Card";
 
 const Services = () => {
   return (
-    <section id="services" className="relative py-15 overflow-hidden">
+    <section id="services" className="relative py-24 overflow-hidden">
       {/* Background Glow */}
       <div className="absolute top-0 left-0 w-96 h-96 bg-primary/10 blur-[120px] rounded-full" />
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-primary/5 blur-[140px] rounded-full" />

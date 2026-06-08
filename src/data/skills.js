@@ -3,10 +3,10 @@ export const skillCategories = [
     title: "Frontend Development",
     icon: "frontend",
     skills: [
-      { name: "React.js", level: "Expert" },
-      { name: "JavaScript", level: "Expert" },
+      { name: "React.js", level: "intermediate" },
+      { name: "JavaScript", level: "Advanced" },
       { name: "TypeScript", level: "Advanced" },
-      { name: "Tailwind CSS", level: "Expert" },
+      { name: "Tailwind CSS", level: "Advanced" },
     ],
   },
 

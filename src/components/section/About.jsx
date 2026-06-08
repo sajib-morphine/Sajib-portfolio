@@ -18,7 +18,7 @@ import FadeIn from "../animations/FadeIn";
 
 const About = () => {
   return (
-    <section id="about" className="relative py-12 overflow-hidden">
+    <section id="about" className="relative py-24 overflow-hidden">
       {/* Background Glow */}
       <div className="absolute top-20 right-0 w-125 h-125 bg-primary/10 blur-[150px] rounded-full" />
       <div className="absolute bottom-0 left-0 w-75 h-75 bg-primary/5 blur-[120px] rounded-full" />
@@ -207,7 +207,7 @@ const About = () => {
                     key={index}
                     className="group relative rounded-3xl border border-white/10 bg-white/5 backdrop-blur-md p-6 text-center overflow-hidden hover:border-primary/40 hover:-translate-y-2 transition-all duration-300"
                   >
-                    <div className="absolute inset-0 bg-gradient-to-b from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                    <div className="absolute inset-0 bg-linear-to-b from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
                     <div className="relative z-10">
                       <div className="w-16 h-16 mx-auto rounded-2xl bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-all duration-300">

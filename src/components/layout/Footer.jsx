@@ -163,13 +163,18 @@ const Footer = () => {
             </p>
 
             <button
-              onClick={() => scrollToSection("Hero")}
+              onClick={() =>
+                window.scrollTo({
+                  top: 0,
+                  behavior: "smooth",
+                })
+              }
               className="
-                flex items-center gap-2
-                text-gray-400
-                hover:text-primary
-                transition-colors
-              "
+            flex items-center gap-2
+           text-gray-400
+          hover:text-primary
+            transition-colors
+          "
             >
               Back to Top
               <ArrowUp size={16} />

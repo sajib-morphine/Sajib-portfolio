@@ -25,7 +25,7 @@ const Projects = () => {
   };
 
   return (
-    <section id="projects" className="py-15 relative overflow-hidden">
+    <section id="projects" className="py-24 relative overflow-hidden">
       <div className="max-w-330 mx-auto px-5">
         {/* Heading */}
         <FadeIn>

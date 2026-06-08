@@ -59,7 +59,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="relative py-20 lg:py-24 overflow-hidden">
+    <section id="contact" className="relative py-24 lg:py-24 overflow-hidden">
       {/* Background Effects */}
       <div className="absolute top-0 left-0 w-72 h-72 md:w-96 md:h-96 bg-primary/10 blur-[120px] rounded-full pointer-events-none" />
 
