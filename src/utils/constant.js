@@ -1,3 +1,5 @@
+import resumePdf from "../assets/Documents/resume.pdf";
+
 export const PERSONAL_INFO = {
   name: "MD SAJIB MIA",
   title: "MERN Developer and UI, UX Designer",
@@ -5,7 +7,7 @@ export const PERSONAL_INFO = {
   location: "Dhaka, Bangaladesh",
   tagline:
     "Passionate about creating intuitive and visually appealing user interfaces.",
-  resume: "src/assets/Documents/resume.pdf",
+  resume: resumePdf,
   bio: [
     "I am a passionate Web developer with a strong focus on creating intuitive and visually appealing user interfaces.",
     "I have experience in both frontend and backend development, allowing me to build complete web applications.",

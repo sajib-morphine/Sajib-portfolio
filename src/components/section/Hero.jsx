@@ -9,6 +9,8 @@ import {
 import { PERSONAL_INFO, STATS } from "../../utils/constant";
 import { scrollToSection } from "../../hooks/useScrollSpy";
 import FadeIn from "../animations/FadeIn";
+import profileImage from "../../assets/profile.png";
+
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-black m">
@@ -84,7 +86,7 @@ const Hero = () => {
                 {/* Image Container */}
                 <div className="relative overflow-hidden rounded-3xl aspect-4/5 animate-float">
                   <img
-                    src="/src/assets/profile.png"
+                    src={profileImage}
                     alt="Developer"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
