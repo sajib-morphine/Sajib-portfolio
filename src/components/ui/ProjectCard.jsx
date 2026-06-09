@@ -19,7 +19,7 @@ const ProjectCard = ({ project }) => {
       "
     >
       {/* Image */}
-      <div className="relative overflow-hidden aspect-[16/10]">
+      <div className="relative overflow-hidden aspect-16/10">
         <img
           src={project.image}
           alt={project.title}
@@ -34,7 +34,7 @@ const ProjectCard = ({ project }) => {
           "
         />
 
-        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent" />
+        <div className="absolute inset-0 bg-linear-to-t from-black via-black/40 to-transparent" />
 
         {/* Category */}
         <span

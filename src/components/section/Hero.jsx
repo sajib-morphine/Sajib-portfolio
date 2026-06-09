@@ -9,7 +9,6 @@ import {
 import { PERSONAL_INFO, STATS } from "../../utils/constant";
 import { scrollToSection } from "../../hooks/useScrollSpy";
 import FadeIn from "../animations/FadeIn";
-import profileImage from "../../assets/profile.png";
 
 const Hero = () => {
   return (
@@ -86,7 +85,7 @@ const Hero = () => {
                 {/* Image Container */}
                 <div className="relative overflow-hidden rounded-3xl aspect-4/5 animate-float">
                   <img
-                    src={profileImage}
+                    src="https://res.cloudinary.com/dzthzchxb/image/upload/v1780988745/profile_kikbzs.png"
                     alt="Developer"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
