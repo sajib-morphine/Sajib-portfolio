@@ -102,7 +102,7 @@ export const projects = [
     title: "Figma to Code Conversion",
     description:
       "Pixel-perfect conversion of Figma designs into responsive web interfaces using modern frontend technologies and best development practices.",
-    image: figmaToCode,
+    image: "",
     category: "Frontend",
     technologies: ["HTML", "CSS", "JavaScript", "React.js"],
     metrics: "Pixel Perfect Design",
@@ -121,7 +121,7 @@ export const projects = [
     technologies: ["React.js", "Tailwind CSS", "Local Storage"],
     metrics: "Task Management System",
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/sajib-morphine/Todo",
   },
 ];
 
